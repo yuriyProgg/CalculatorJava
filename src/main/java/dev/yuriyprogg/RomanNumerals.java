@@ -31,7 +31,7 @@ public class RomanNumerals {
 
     while (number > 0)
       for (RomanEnum romanEnum : romanEnums) {
-        if (number + 1 >= romanEnum.getValue() && romanEnum.check(number)) {
+        if (number + 1 >= romanEnum.getValue() && romanEnum.check(number)) { // TODO: Сделать правельный parse
           result += "I" + romanEnum.name();
           number -= romanEnum.getValue() + 1;
         } else if (number >= romanEnum.getValue()) {
