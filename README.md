@@ -2,8 +2,8 @@
 
 ### Пример вычеслений римских чисел
 
-(screenshots/roman.png)[roman]
+![roman](screenshots/roman.png)
 
 ### Пример вычеслений арабских чисел
 
-(screenshots/arabic.png)[arabic]
+![arabic](screenshots/arabic.png)
